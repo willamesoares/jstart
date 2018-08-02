@@ -1,0 +1,14 @@
+@import '../../styles/variables.scss';
+
+.Hero {
+  padding: 1rem 2rem;
+  border: .3125rem solid $white;
+
+  &__title {
+    font-family: $secondary-font;
+  }
+
+  &__subtitle {
+    font-size: 1.1875rem;
+  }
+}
