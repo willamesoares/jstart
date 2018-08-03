@@ -1,2 +1,2 @@
-# jstart
-My definitive boilerplate for front-end applications
+# JStart
+The definitive boilerplate for front-end applications
