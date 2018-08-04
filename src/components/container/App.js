@@ -1,22 +1,19 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import Hero from '../presentational/Hero';
 import ToolList from '../presentational/ToolList';
 
-import tools from '../../tools.js';
+import tools from '../../tools';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <Hero
-          title="JStart"
-          subtitle="The definitive boilerplate for frontend applications" />
+const App = () => (
+  <div className="App">
+    <Hero
+      title="JStart"
+      subtitle="The definitive boilerplate for frontend applications"
+    />
 
-        <ToolList toolList={tools} />
-      </div>
-    );
-  }
-}
+    <ToolList toolList={tools} />
+  </div>
+);
 
 export default App;
