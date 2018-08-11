@@ -5,6 +5,9 @@ import './ToolList.scss';
 
 const ToolList = ({ toolList }) => (
   <ul className="ToolList">
+    <li className="ToolList__header">
+      This boilerplate includes:
+    </li>
     {
       toolList.map((elem) => {
         const { id, name, url } = elem;

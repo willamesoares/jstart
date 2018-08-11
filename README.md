@@ -1,5 +1,5 @@
 # JStart
-The definitive boilerplate for front-end applications.
+Yet another boilerplate for front-end applications :)
 
 It includes:
  - [React](https://reactjs.org/)

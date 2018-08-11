@@ -9,7 +9,7 @@ const App = () => (
   <div className="App">
     <Hero
       title="JStart"
-      subtitle="The definitive boilerplate for frontend applications"
+      subtitle="Yet another boilerplate for frontend applications. Enjoy!"
     />
 
     <ToolList toolList={tools} />
