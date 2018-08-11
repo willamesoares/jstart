@@ -16,12 +16,22 @@ export default [
   },
   {
     id: 4,
-    name: 'Sass',
-    url: 'https://sass-lang.com/',
+    name: 'ESLint',
+    url: 'https://eslint.org/',
   },
   {
     id: 5,
-    name: 'ESLint',
-    url: 'https://eslint.org/',
+    name: 'Sass (SCSS)',
+    url: 'https://sass-lang.com/',
+  },
+  {
+    id: 6,
+    name: 'Stylelint',
+    url: 'https://stylelint.io/',
+  },
+  {
+    id: 7,
+    name: 'Prettier',
+    url: 'https://prettier.io/',
   },
 ];
